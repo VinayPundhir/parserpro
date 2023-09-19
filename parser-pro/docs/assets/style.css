@@ -1,13 +1,13 @@
 /* CSS for the navigation button */
 .navigation-button {
     display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
+    padding: 8px 16px;
     background-color: #007bff;
     color: #fff;
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 .navigation-button:hover {
@@ -17,28 +17,34 @@
 /* CSS for the function names */
 .function-name {
     color: #007bff;
+    font-weight: bold;
 }
 
 /* CSS for the card */
 .card {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #e5e5e5;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* CSS for the function name in the card */
-.card h2.name {
+.h2.name {
     color: #333;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 /* CSS for the description in the card */
-.card h3 {
+.h3 {
     color: #007bff;
+    margin-top: 0;
 }
 
-.card p {
+.p {
     color: #555;
+    font-size: 1em;
+    margin-top: 10px;
 }
