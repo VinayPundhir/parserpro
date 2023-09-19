@@ -1,5 +1,9 @@
-{% extends 'docs/assets/base.html' %}
-{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
     {% for key, test_cases_group in test_cases_by_key.items() %}
     <div class="key-group">
         <div class="card">
@@ -22,4 +26,5 @@
         </div>
     </div>
     {% endfor %}
-{% endblock %}
+</body>
+</html>
