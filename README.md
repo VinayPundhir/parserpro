@@ -5,6 +5,12 @@
 
 **Parser-Pro** is a Python library that simplifies JSON data parsing and manipulation. It provides a collection of functions for extracting, transforming, and processing JSON objects and lists efficiently.  [Documentation](https://htmlpreview.github.io/?https://github.com/VinayPundhir/parserpro/blob/master/docs/examples.html)
 
+## installation
+
+```
+  pip install git+https://github.com/VinayPundhir/parserpro.git
+```
+
 
 ## Features
 
