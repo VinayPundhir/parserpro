@@ -1,4 +1,4 @@
-from core.lexer.tokens import generate_tokens
+from parser_pro.core.lexer.tokens import generate_tokens
 
 
 def test_statement_split_success():

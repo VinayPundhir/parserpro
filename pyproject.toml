@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "parser-pro"
+name = "parser_pro"
 version = "0.1.0"
 description = "Parser-Pro is a powerful Python library designed to streamline the parsing and manipulation of JSON data, making it easier than ever to perform complex data operations."
 authors = ["VinayPundhir <its.vinay.pundhir@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "parser-pro"}]
+packages = [{include = "parser_pro"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

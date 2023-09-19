@@ -1,4 +1,4 @@
-from core.json_handler.parser import parse
+from parser_pro.core.json_handler.parser import parse
 
 
 def test_parse():

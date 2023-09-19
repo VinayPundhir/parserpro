@@ -1,9 +1,9 @@
-from core.lexer.tokens import generate_tokens
-import core.json_handler.parser as json_parser
-from core.lexer.methods_args import extract_method_and_args, KEY, VALUE
-from core.lexer.operator import extract_operators_and_operands
-from core.operators import OPERATORS
-from core.methods import get_method
+from parser_pro.core.lexer.tokens import generate_tokens
+import parser_pro.core.json_handler.parser as json_parser
+from parser_pro.core.lexer.methods_args import extract_method_and_args, KEY, VALUE
+from parser_pro.core.lexer.operator import extract_operators_and_operands
+from parser_pro.core.operators import OPERATORS
+from parser_pro.core.methods import get_method
 
 
 def parse(data: dict, s: str):

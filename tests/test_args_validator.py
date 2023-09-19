@@ -1,4 +1,4 @@
-from core.methods.args_validator.is_dict_string import is_dict_string
+from parser_pro.core.methods.args_validator.is_dict_string import is_dict_string
 import pytest
 
 

@@ -1,4 +1,4 @@
-from core.lexer.methods_args import extract_method_and_args, KEY, VALUE
+from parser_pro.core.lexer.methods_args import extract_method_and_args, KEY, VALUE
 
 
 def test_single_arg():
