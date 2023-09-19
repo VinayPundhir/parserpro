@@ -1,4 +1,4 @@
-# Parser-Pro Library
+# Parser-Pro
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Overview
