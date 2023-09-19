@@ -5,7 +5,7 @@ description = "Parser-Pro is a powerful Python library designed to streamline th
 authors = ["VinayPundhir <its.vinay.pundhir@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "parser_pro"}]
+packages = [{include = "parser-pro"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
