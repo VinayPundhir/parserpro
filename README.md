@@ -7,7 +7,7 @@
 
 ## Usage
 
-[Documentation](https://htmlpreview.github.io/?https://github.com/VinayPundhir/parserpro/blob/master/docs/examples.html)
+[Documentation](https://htmlpreview.github.io/?https://github.com/VinayPundhir/parserpro/blob/master/docs/_build/html/index.html)
 
 ## installation
 

@@ -3,6 +3,14 @@ from ..decorator import method
 
 @method
 def eq(data: list, args: str):
+    """
+    function implements the $eq functionality of parser
+    Args:
+        data:dict
+        args: str containing args in double quotes , separated by comma
+    Returns:
+         list containing all the objects if key equals to value
+    """
     args = args.split(",")
     args = [i.strip('"') for i in args]
 

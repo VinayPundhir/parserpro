@@ -7,7 +7,15 @@ VALUE = ".value"
 
 @method
 def map_dict(data: dict, args: str):
-    """used to deal with both key and values"""
+    """
+    function implements $map_dict functionality of parser
+    Args:
+        data: dict
+        args:string containing dict e.g {"name":".key","place":".value"}
+              .key and .value are used to access the key and value of data
+    Returns:
+        list containing dict objects e.g [{},{}]
+    """
     is_dict_string(args)
 
     res = []

@@ -1,4 +1,7 @@
 def parse(json_data: dict, path: str):
+    """
+    function used to parse complex python objects using "." operator for nested dict and [i] for lists where i is index of list
+    """
     if path.startswith(('"', "'")) and path.endswith(('"', "'")):
         return path.strip('"')
 

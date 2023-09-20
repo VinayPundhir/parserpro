@@ -1,6 +1,7 @@
 def operator(func):
     """
-    Hint : Underlying function should take argument namely  operands:list
+    This is decorator used to implement operators
+    each implemented operator function should take only one arg namely  args:list
     """
 
     def wrapper(*args, **kwargs):

@@ -2,8 +2,11 @@ import re
 
 
 def generate_tokens(input_string: str) -> list:
-    """info : splits the expression into statements
-    expression is separated by '|' without quotes and ignores any '|' in double quotes
+    """
+    functon generates tokens from parser_pro expression.
+    conditions are as follows:
+        split expression using pipe '|'
+        ignore any pipe '|' written in double quotes as it will be treated as constant
     """
     # Define the regular expression pattern
     pattern = r'\s*\|\s*(?=(?:[^"]*"[^"]*")*[^"]*$)'

@@ -3,9 +3,12 @@ from typing import Any
 
 def method(func):
     """
-    Hint : Underlying function should take two arguments namely : data, args
-           Type of each argument is subjected to function usage
-           Type hint is mandatory for each argument e.g. data:str,args:list
+    This is a decorator used to implement methods used in parser
+
+        Hint:
+            checks compatibility of input data with method args
+            each implemented method will take 2 args namely ( data , args ).
+            Type of each arg is optional but type hint should be given
     """
 
     def wrapper(*args, **kwargs):

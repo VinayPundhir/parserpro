@@ -7,6 +7,16 @@ from parser_pro.core.methods import get_method
 
 
 def parse(data: dict, s: str):
+    """
+    function implements the parse function of parser_pro
+
+    Args:
+        data: dict
+        s: string containing parser_pro expression
+
+    Returns:
+        parsed data
+    """
     result = ""
 
     for chunk in generate_tokens(s):
