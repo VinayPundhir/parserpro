@@ -1,0 +1,21 @@
+examples.map package
+====================
+
+Submodules
+----------
+
+examples.map.example module
+---------------------------
+
+.. automodule:: examples.map.example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: examples.map
+   :members:
+   :undoc-members:
+   :show-inheritance:
