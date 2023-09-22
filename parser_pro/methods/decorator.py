@@ -1,4 +1,5 @@
 from typing import Any
+from functools import wraps
 
 
 def method(func):
@@ -11,6 +12,7 @@ def method(func):
             Type of each arg is optional but type hint should be given
     """
 
+    @wraps(func)
     def wrapper(*args, **kwargs):
         try:
             annotations = func.__annotations__
