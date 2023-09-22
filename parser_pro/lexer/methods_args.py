@@ -4,7 +4,7 @@ ARGS_SEPERATOR = ","
 
 
 def extract_method_and_args(input_string: str) -> list:
-    """"
+    """ "
     function used to extract method name and arguments string from lexer generated token
     """
     results = []

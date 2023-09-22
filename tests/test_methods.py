@@ -1,4 +1,4 @@
-from parser_pro.main import parse
+from parser_pro import parse
 
 
 def test_join():

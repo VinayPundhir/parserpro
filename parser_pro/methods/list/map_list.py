@@ -7,7 +7,7 @@ VALUE = ".value"
 
 
 @method
-def map_list(data: Any, args: str)->list:
+def map_list(data: Any, args: str) -> list:
     """
     function implements $map_list functionality of parser
 
