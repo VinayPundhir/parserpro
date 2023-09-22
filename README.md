@@ -14,12 +14,3 @@
 ```
   pip install git+https://github.com/VinayPundhir/parserpro.git
 ```
-
-
-## Features
-
-- **JSON Parsing:** Extract values from JSON objects and lists using expressive expressions.
-- **List Manipulation:** Join list elements, map elements to new formats, and more.
-- **String Operations:** Replace substrings and split strings based on delimiters.
-- **Math Operations:** Perform addition on numbers, strings, lists, or dictionaries.
-- **Data Selection:** Retrieve values from lists or strings and select specific keys from dictionaries.
