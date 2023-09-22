@@ -1,6 +1,5 @@
 from ..decorator import method
-from typing import Any
-from parser_pro.core.json_handler.parser import parse
+from parser_pro.json_handler.parser import parse
 
 
 @method

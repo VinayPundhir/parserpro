@@ -1,6 +1,6 @@
-from parser_pro.core.operators import OPERATORS, add
-from parser_pro.core.lexer.operator import extract_operators_and_operands
-from parser_pro.core.json_handler.parser import parse
+from parser_pro.operators import OPERATORS, add
+from parser_pro.lexer.operator import extract_operators_and_operands
+from parser_pro.json_handler.parser import parse
 
 
 def test_add_success():
